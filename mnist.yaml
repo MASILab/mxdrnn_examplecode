@@ -1,0 +1,23 @@
+
+data_root: "/share5/gaor2/data/mnist/2Dmnist"
+save_path: '/media/gaor2/46324cd9-d012-4189-b58d-54605a1828aa/saved_file/mnist/bl_test'
+
+# training Params
+max_epoch: 200
+start_epoch: 0
+n_classes: 10
+learning_rate: 0.001
+batch_size: 64
+
+time: 2  # time means steps here
+
+use_exist_model: True
+
+iseval: True
+savemodel: True
+
+model_name: bl  # bl means baseline model, multi means multi-channel version, xdrnn, mxdrnn are the methds we propose. 
+
+
+
+
